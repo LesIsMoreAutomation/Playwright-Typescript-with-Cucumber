@@ -1,0 +1,36 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js  -p runner && node reporter-config.ts",
+    "test:parallel": "cucumber-js  -p runner --parallel=2 && node reporter-config.ts",
+    "test:firefox": "BROWSER=firefox cucumber-js  -p runner && node reporter-config.ts"
+  },
+  "keywords": [
+    "cucumber",
+    "playwright",
+    "playwright automation",
+    "test automation",
+    "TypeScript"
+  ],
+  "author": "Sanjeev Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.0",
+    "eslint-plugin-playwright": "^0.12.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "csv-parser": "^3.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "fs-extra": "^11.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
