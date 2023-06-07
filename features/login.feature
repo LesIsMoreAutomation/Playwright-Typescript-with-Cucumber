@@ -11,4 +11,4 @@ Feature: Login feature
         Then I will be navigated to home page
         And I click on the 'Sauce Labs Onesie'
         Then I click on the 'Add to cart'
-        Then I click on the 'Removed'
+        Then I click on the 'Remove'
