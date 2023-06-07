@@ -23,9 +23,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Create report directory
+        run: mkdir -p report
+
       - name: Run tests
         run: npm test
 
       - name: Generate HTML report
         run: npm run generate-report
-
