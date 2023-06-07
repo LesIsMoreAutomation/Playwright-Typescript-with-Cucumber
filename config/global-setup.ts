@@ -1,21 +1,8 @@
-import {
-  After,
-  AfterStep,
-  Before,
-  setDefaultTimeout,
-  Status,
-  World,
-} from "@cucumber/cucumber";
-import {
-  Page,
-  Browser,
-  chromium,
-  BrowserContext,
-  firefox,
-  webkit,
-} from "@playwright/test";
-import { BasePage } from "../page-objects/login-signin/BasePage";
-import { config } from "./runsetting-config";
+import { After, AfterStep, Before, setDefaultTimeout, Status, World } from 'cucumber';
+import { Page, Browser, chromium, firefox, webkit, BrowserContext } from 'playwright';
+import { BasePage } from '../page-objects/login-signin/BasePage';
+import { config } from './runsetting-config';
+
 
 let page: Page;
 let browser: Browser;
