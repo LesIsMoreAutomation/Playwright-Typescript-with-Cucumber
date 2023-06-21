@@ -1,4 +1,5 @@
 import { expect, Page } from "@playwright/test";
+import { urls } from "../../utils/env.urls";
 
 export class LoginPage {
   protected readonly page: Page;
@@ -7,6 +8,10 @@ export class LoginPage {
     this.page = page;
   }
 
+  async navigateToLoginPage(environment: string): Promise<void> {
+    const loginUrl = urls[environment];
+    await this.page.goto(loginUrl);
+  }
   public async enterUsername(username: string) {
     await this.page.getByPlaceholder("Username").fill(username);
   }
@@ -18,11 +23,8 @@ export class LoginPage {
   public async clickOnLogin() {
     await this.page.getByText("Login").click();
   }
+  public async lockoutError(text: string){
+    await expect(this.page.locator(".error-message-container.error")).toContainText(text);
+  }
 
-  public async isUserLoggedIn() {
-    await expect(this.page).toHaveTitle("Swag Labs");
-  }
-  public async clickByText(text: string){
-    await this.page.getByText(text).click()
-  }
 }

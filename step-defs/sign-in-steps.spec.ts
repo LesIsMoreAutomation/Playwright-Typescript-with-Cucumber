@@ -2,10 +2,7 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import {page, baseBage} from "../config/global-setup";
 
 
-Given
-("I navigate to ultimate automation website {string}", async function (env) {
-    await page.goto("https://courses.ultimate"+env+".com/users/sign_in");
-});
+
 
 Then
 ("Assert sign in page has header {string}", async function (header) {
