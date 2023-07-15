@@ -2,6 +2,8 @@ import { Page } from "@playwright/test";
 import { LoginPage } from "./LoginPage";
 import {SignInSpec} from "./SignInSpec";
 import {InventoryPage} from "../products-Page/InventoryPage";
+import {OfficePage} from "./OfficePage";
+
 export class BasePage {
   protected readonly page: Page;
 
@@ -14,6 +16,9 @@ export class BasePage {
   }
   public get SignInSpec(): SignInSpec {
     return new SignInSpec(this.page);
+  }
+  public get OfficePage(): OfficePage {
+    return new OfficePage(this.page);
   }
   public get InventoryPage(): InventoryPage {
     return new InventoryPage(this.page);
