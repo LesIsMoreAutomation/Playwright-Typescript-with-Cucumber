@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js -p runner && node reporter-config.ts",
+    "test": "cucumber-js -p runner --parallel=3 && node reporter-config.ts",
     "test:parallel": "cucumber-js -p runner --parallel=2 && node reporter-config.ts",
     "test:firefox": "BROWSER=firefox cucumber-js -p runner && node reporter-config.ts",
     "generate-report": "cucumber-html-reporter --format json:report/cucumber_report.json --format html:report/cucumber_report.html --name 'Playwright Cucumber Report' --template templates/html.hbs"
