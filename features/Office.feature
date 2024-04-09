@@ -8,5 +8,7 @@ Feature: Office Login feature
     Then I click on a 'Sign in'
     Then I enter my username 'lesibana.george@gmail.com'
     When I click on a 'Next'
+    And I click on a 'Other ways to sign in'
+	  And I click on a 'Use my password'
     Then I enter my password 'TestWebDriverIO?'
     When I click on a 'Sign in'
