@@ -13,8 +13,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3580408799
+              "status": "failed",
+              "duration": 50261099,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
             }
           },
           {
@@ -26,8 +27,8 @@
               "location": "step-defs\\login-steps.spec.ts:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1006845999
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -36,11 +37,11 @@
             "line": 6,
             "name": "I enter username 'standard_user'",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:8"
+              "location": "step-defs\\login-steps.spec.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 43467099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -49,11 +50,11 @@
             "line": 7,
             "name": "I enter password 'secret_sauce'",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:11"
+              "location": "step-defs\\login-steps.spec.ts:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 13003000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -62,11 +63,11 @@
             "line": 8,
             "name": "I click login button",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:14"
+              "location": "step-defs\\login-steps.spec.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 80980100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -75,11 +76,11 @@
             "line": 9,
             "name": "I will be navigated to home page",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:17"
+              "location": "step-defs\\login-steps.spec.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 18483500
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -88,11 +89,11 @@
             "line": 10,
             "name": "I click on the 'Add to cart'",
             "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 170095600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -101,11 +102,11 @@
             "line": 11,
             "name": "I click on the 'Add to cart'",
             "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 145964099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -114,11 +115,11 @@
             "line": 12,
             "name": "I click on the 'Add to cart'",
             "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 145570499
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -127,11 +128,11 @@
             "line": 13,
             "name": "I click on the 'Add to cart'",
             "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 184602100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -143,16 +144,17 @@
               "location": "step-defs\\Inventory-steps.spec.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 9173400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 135135200
+              "status": "failed",
+              "duration": 440199,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
             }
           }
         ],
@@ -186,8 +188,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 5303711999
+              "status": "failed",
+              "duration": 4678200,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
             }
           },
           {
@@ -199,8 +202,8 @@
               "location": "step-defs\\login-steps.spec.ts:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 842001399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -209,11 +212,11 @@
             "line": 6,
             "name": "I enter username 'standard_user'",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:8"
+              "location": "step-defs\\login-steps.spec.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 33154799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -222,11 +225,11 @@
             "line": 7,
             "name": "I enter password 'secret_sauce'",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:11"
+              "location": "step-defs\\login-steps.spec.ts:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 15075900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -235,11 +238,11 @@
             "line": 8,
             "name": "I click login button",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:14"
+              "location": "step-defs\\login-steps.spec.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 89168699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -248,11 +251,11 @@
             "line": 9,
             "name": "I will be navigated to home page",
             "match": {
-              "location": "step-defs\\login-steps.spec.ts:17"
+              "location": "step-defs\\login-steps.spec.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 5210799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -264,8 +267,8 @@
               "location": "step-defs\\Inventory-steps.spec.ts:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 32821700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -277,16 +280,17 @@
               "location": "step-defs\\Inventory-steps.spec.ts:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 29351999
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 80105600
+              "status": "failed",
+              "duration": 506999,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
             }
           }
         ],
@@ -307,376 +311,6 @@
     "uri": "features\\Filter.feature"
   },
   {
-    "description": "    As an user I should be able to login with valid credentials",
-    "elements": [
-      {
-        "description": "",
-        "id": "login-feature;should-be-able-to-login-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 6,
-        "name": "Should be able to login with valid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 5208050400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "I navigate 'test' to login page",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 924950599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I enter username 'standard_user'",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34448400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I enter password 'secret_sauce'",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9811199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "I click login button",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 94724200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "I will be navigated to home page",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6022300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "I click on the 'Sauce Labs Onesie'",
-            "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 185376100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "I click on the 'Add to cart'",
-            "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 163328299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "I click on the 'Remove'",
-            "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 145196899
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 94570399
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke",
-            "line": 5
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-feature;should-be-able-to-login-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "Should be able to login with valid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 4981995700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "I navigate 'test' to login page",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 840598299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "I enter username 'standard_user'",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35874000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "I enter password 'secret_sauce'",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 22329099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "I click login button",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 84880399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
-            "name": "I will be navigated to home page",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5370699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "I click on the 'Sauce Labs Onesie'",
-            "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 155106300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "I click on the 'Add to cart'",
-            "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 173585500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "I click on the 'Remove'",
-            "match": {
-              "location": "step-defs\\Inventory-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 141376999
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 87279700
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-feature;user-login-with-locked-out-user-credentials",
-        "keyword": "Scenario",
-        "line": 26,
-        "name": "User login with locked out user credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 4683177000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 27,
-            "name": "I navigate 'test' to login page",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 808886999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "I enter username 'locked_out_user'",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31946300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 29,
-            "name": "I enter password 'secret_sauce'",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16104199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 30,
-            "name": "I click login button",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 64077399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 31,
-            "name": "Error message \"Epic sadface: Sorry, this user has been locked out.\"",
-            "match": {
-              "location": "step-defs\\login-steps.spec.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5415400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 85769200
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "login-feature",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Login feature",
-    "tags": [],
-    "uri": "features\\login.feature"
-  },
-  {
     "description": "  As a user I should be able to login with valid credentials on microsoft office",
     "elements": [
       {
@@ -690,8 +324,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 4404179399
+              "status": "failed",
+              "duration": 4433500,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
             }
           },
           {
@@ -703,8 +338,8 @@
               "location": "step-defs\\login-steps.spec.ts:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 4717710900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -713,11 +348,11 @@
             "line": 8,
             "name": "I click on a 'Sign in'",
             "match": {
-              "location": "step-defs\\office-steps.spec.ts:11"
+              "location": "step-defs\\office-steps.spec.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 655470599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -726,11 +361,11 @@
             "line": 9,
             "name": "I enter my username 'lesibana.george@gmail.com'",
             "match": {
-              "location": "step-defs\\office-steps.spec.ts:5"
+              "location": "step-defs\\office-steps.spec.ts:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 834887400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -739,45 +374,72 @@
             "line": 10,
             "name": "I click on a 'Next'",
             "match": {
-              "location": "step-defs\\office-steps.spec.ts:11"
+              "location": "step-defs\\office-steps.spec.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 243639999
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on a 'Other ways to sign in'",
+            "match": {
+              "location": "step-defs\\office-steps.spec.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on a 'Use my password'",
+            "match": {
+              "location": "step-defs\\office-steps.spec.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 13,
             "name": "I enter my password 'TestWebDriverIO?'",
             "match": {
-              "location": "step-defs\\office-steps.spec.ts:8"
+              "location": "step-defs\\office-steps.spec.ts:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1364027700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 14,
             "name": "I click on a 'Sign in'",
             "match": {
-              "location": "step-defs\\office-steps.spec.ts:11"
+              "location": "step-defs\\office-steps.spec.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 49907700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 86901600
+              "status": "failed",
+              "duration": 480199,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
             }
           }
         ],
@@ -811,8 +473,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 4765354899
+              "status": "failed",
+              "duration": 4205699,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
             }
           },
           {
@@ -824,8 +487,8 @@
               "location": "step-defs\\login-steps.spec.ts:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 5259006999
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -834,11 +497,11 @@
             "line": 6,
             "name": "Assert sign in page has header 'Welcome Back!'",
             "match": {
-              "location": "step-defs\\sign-in-steps.spec.ts:5"
+              "location": "step-defs\\sign-in-steps.spec.ts:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 22950200
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -847,11 +510,11 @@
             "line": 7,
             "name": "I enter the email 'test@testing1.co.za'",
             "match": {
-              "location": "step-defs\\sign-in-steps.spec.ts:8"
+              "location": "step-defs\\sign-in-steps.spec.ts:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 17776400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -860,11 +523,11 @@
             "line": 8,
             "name": "I enter the password 'WelcomeBack!'",
             "match": {
-              "location": "step-defs\\sign-in-steps.spec.ts:11"
+              "location": "step-defs\\sign-in-steps.spec.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 14548400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -873,19 +536,20 @@
             "line": 9,
             "name": "I click on the sign in button",
             "match": {
-              "location": "step-defs\\sign-in-steps.spec.ts:14"
+              "location": "step-defs\\sign-in-steps.spec.ts:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 50293900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 88359499
+              "status": "failed",
+              "duration": 343199,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
             }
           }
         ],
@@ -904,5 +568,381 @@
     "name": "Testing ultimate automation sign in page",
     "tags": [],
     "uri": "features\\Sign in.feature"
+  },
+  {
+    "description": "    As an user I should be able to login with valid credentials",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;should-be-able-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Should be able to login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 4997600,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate 'test' to login page",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter username 'standard_user'",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter password 'secret_sauce'",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I will be navigated to home page",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the 'Sauce Labs Onesie'",
+            "match": {
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click on the 'Add to cart'",
+            "match": {
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click on the 'Remove'",
+            "match": {
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 326100,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;should-be-able-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Should be able to login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 10054400,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I navigate 'test' to login page",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter username 'standard_user'",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I enter password 'secret_sauce'",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click login button",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I will be navigated to home page",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on the 'Sauce Labs Onesie'",
+            "match": {
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I click on the 'Add to cart'",
+            "match": {
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I click on the 'Remove'",
+            "match": {
+              "location": "step-defs\\Inventory-steps.spec.ts:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 370000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;user-login-with-locked-out-user-credentials",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User login with locked out user credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 4606899,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I navigate 'test' to login page",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I enter username 'locked_out_user'",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I enter password 'secret_sauce'",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I click login button",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "step-defs\\login-steps.spec.ts:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 371400,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login feature",
+    "tags": [],
+    "uri": "features\\login.feature"
   }
 ]
