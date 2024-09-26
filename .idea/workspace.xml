@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8b2da4-41e5-4a8e-9918-182f84997ac4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-report-sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-objects/login-signin/BasePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/login-signin/BasePage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/cucumber_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/env.urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/env.urls.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Auto/Playwright-Typescript-with-Cucumber/features",
+    "last_opened_file_path": "C:/Auto/Playwright-Typescript-with-Cucumber",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +88,7 @@
       <workItem from="1679561547670" duration="19718000" />
       <workItem from="1686117940819" duration="2144000" />
       <workItem from="1689437915972" duration="6951000" />
+      <workItem from="1727344983415" duration="1159000" />
     </task>
     <servers />
   </component>
