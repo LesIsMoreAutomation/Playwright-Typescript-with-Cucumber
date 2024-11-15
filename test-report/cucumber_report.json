@@ -14,8 +14,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 50261099,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 107451200,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -153,8 +153,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 440199,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 963100,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
@@ -189,8 +189,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 4678200,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 25889100,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -289,8 +289,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 506999,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 940000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
@@ -325,8 +325,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 4433500,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 25789399,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -438,8 +438,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 480199,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 1034799,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
@@ -474,8 +474,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 4205699,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 9026999,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -548,8 +548,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 343199,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 1079499,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
@@ -584,8 +584,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 4997600,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 10212299,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -697,8 +697,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 326100,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 880499,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
@@ -722,8 +722,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 10054400,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 68010599,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -835,8 +835,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 370000,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 899899,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
@@ -855,8 +855,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 4606899,
-              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1124\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32)"
+              "duration": 15326800,
+              "error_message": "browserType.launch: Executable doesn't exist at C:\\Users\\lesibana.moselakgomo\\AppData\\Local\\ms-playwright\\chromium-1140\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:23:32\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:8)"
             }
           },
           {
@@ -929,8 +929,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 371400,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)"
+              "duration": 602499,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'screenshot')\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:32:35)\n    at step (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:33:23)\n    at Object.next (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:14:53)\n    at C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:8:71\n    at __awaiter (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:4:12)\n    at World.<anonymous> (C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\config\\global-setup.ts:86:12)"
             }
           }
         ],
