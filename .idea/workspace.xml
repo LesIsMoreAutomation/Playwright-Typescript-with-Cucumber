@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8b2da4-41e5-4a8e-9918-182f84997ac4" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/global-setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/global-setup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/runsetting-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/runsetting-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-objects/login-signin/BasePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/login-signin/BasePage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-objects/login-signin/LoginPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/login-signin/LoginPage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-defs/login-steps.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step-defs/login-steps.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-defs/office-steps.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step-defs/office-steps.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/cucumber_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/env.urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/env.urls.ts" afterDir="false" />
-    </list>
+    <list default="true" id="ab8b2da4-41e5-4a8e-9918-182f84997ac4" name="Changes" comment="Update 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731675087719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update 1">
+      <option name="closed" value="true" />
+      <created>1731705888369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731705888369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 1" />
   </component>
 </project>
