@@ -9,7 +9,7 @@ let browser: Browser;
 let context: BrowserContext;
 let baseBage: BasePage;
 
-setDefaultTimeout(60000);
+setDefaultTimeout(1200000);
 
 Before(async () => {
   switch (config.browser) {

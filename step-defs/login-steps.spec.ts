@@ -1,6 +1,7 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import { page, baseBage } from "../config/global-setup";
 import {BasePage} from "../page-objects/login-signin/BasePage";
+import {expect} from "@playwright/test";
 
 Given("I navigate {string} to login page", async function (env) {
   await baseBage.LoginPage.navigateToLoginPage(env);
@@ -26,3 +27,39 @@ Then("I will be navigated to home page", async function () {
 Then("Error message {string}", async function (text) {
   await baseBage.LoginPage.lockoutError(text);
 });
+
+Then("I click on the link text {string}", async function (text) {
+  await baseBage.SportPage.clickByRole(text);
+  await page.screenshot({ path: 'test-report/screenshot.png' })
+});
+
+Then('I should see {string} in {string} place', async function (driverName: string, position: string) {
+  const positionNumber = parseInt(position); // Convert position to a number
+  const actualName = await baseBage.SportPage.getNameAtPosition(positionNumber);
+  expect(actualName).toBe(driverName); // Assert that the actual name matches the expected name
+
+
+});
+
+Then('I assert that {string} appears at least four times', async function (textToCheck: string) {
+  const selector = '.ssrcss-1020bd1-Stack.e1y4nx260'; // The CSS selector for the element containing the text
+
+  // Wait for the element to be visible
+  await page.waitForSelector(selector);
+
+  // Get the element's text content
+  const element = await page.$(selector);
+  if (element) {
+    const textContent = await element.textContent();
+    console.log(`Text content of the element: ${textContent}`); // Log the content
+
+    // Count occurrences of the specified text
+    const occurrences = (textContent.match(new RegExp(textToCheck, 'g')) || []).length;
+
+    // Assert that the text appears at least 3 times
+    expect(occurrences).toBeGreaterThan(3); // At least 3 times
+  } else {
+    throw new Error(`Element not found for selector: ${selector}`);
+  }
+});
+

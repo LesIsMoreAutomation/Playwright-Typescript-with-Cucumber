@@ -2,7 +2,7 @@ import { LaunchOptions } from "@playwright/test";
 
 const browserOptions: LaunchOptions = {
   tracesDir: "traces",
-  headless: true,
+  headless: false,
 };
 
 export const config = {

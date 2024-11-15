@@ -7,5 +7,6 @@ export const urls: Urls = {
     qa: "https://www.saucedemo.com/",
     staging: "https://www.saucedemo.com/",
     test: "https://www.saucedemo.com/",
-    office: "https://www.office.com/"
+    office: "https://www.office.com/",
+    bbcSport: "https://www.bbc.com/sport"
 };

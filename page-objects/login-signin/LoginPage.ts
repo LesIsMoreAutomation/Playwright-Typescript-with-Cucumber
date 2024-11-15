@@ -10,7 +10,7 @@ export class LoginPage {
 
   async navigateToLoginPage(environment: string): Promise<void> {
     const loginUrl = urls[environment];
-    await this.page.goto(loginUrl);
+    await this.page.goto(loginUrl, { timeout: 90000 });
   }
   public async enterUsername(username: string) {
     await this.page.getByPlaceholder("Username").fill(username);

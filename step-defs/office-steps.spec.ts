@@ -15,3 +15,6 @@ Then("I click on a {string}", async function (text) {
     await baseBage.OfficePage.clickOnText(text);
 });
 
+When("I search for {string}", async function (text) {
+    await baseBage.SportPage.enterPlaceholderInput(text)
+});

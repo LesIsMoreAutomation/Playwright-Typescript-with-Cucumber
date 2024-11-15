@@ -3,6 +3,7 @@ import { LoginPage } from "./LoginPage";
 import {SignInSpec} from "./SignInSpec";
 import {InventoryPage} from "../products-Page/InventoryPage";
 import {OfficePage} from "./OfficePage";
+import {SportPage} from "../bbcSport/SportPage";
 
 export class BasePage {
   protected readonly page: Page;
@@ -22,5 +23,8 @@ export class BasePage {
   }
   public get InventoryPage(): InventoryPage {
     return new InventoryPage(this.page);
+  }
+  public get SportPage(): SportPage {
+    return new SportPage(this.page);
   }
 }
