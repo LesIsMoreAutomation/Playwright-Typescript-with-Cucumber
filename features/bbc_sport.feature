@@ -12,8 +12,8 @@ Feature: BBC Sport Automation
     And I should see "George Russell" in '2' place
     And I should see "Sergio Perez" in '3' place
 
+  @IntegrationTests
   Scenario: Retrieve Search Results
     Given I navigate 'bbcSport' to login page
     When I search for "Sport in 2023"
     Then I assert that "2023" appears at least four times
-    #Then I should see at least 4 relevant results
