@@ -3,7 +3,7 @@ Feature: BBC Sport Automation
   @IntegrationTests
   Scenario: Validation In A Table Of Results
     Given I navigate 'bbcSport' to login page
-    Then I click on the link text "Formula 1"
+    Then I click on the link text "Formula"
     And I click on the link text "Results"
     And I click on the link text "2023"
     And I click on the "Abu Dhabi Grand Prix"
