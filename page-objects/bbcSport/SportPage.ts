@@ -8,7 +8,7 @@ export class SportPage {
     }
 
     public async clickByRole(text: string) {
-        await this.page.getByRole('link', { name: text }).click();
+        await this.page.getByRole('link', { name: text }).first.click();
     }
 
     public async getNameAtPosition(position: number): Promise<string> {
