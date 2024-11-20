@@ -9,7 +9,7 @@ Feature: BBC Sport Automation
     And I click on the "Abu Dhabi Grand Prix"
     And I click on the "Las Vegas Grand Prix"
     Then I should see "Max Verstappen" in '1' place
-    And I should see "George Russell" in '2' place
+    And I should see "Charles Leclerc" in '2' place
     And I should see "Sergio Perez" in '3' place
 
   @IntegrationTests
