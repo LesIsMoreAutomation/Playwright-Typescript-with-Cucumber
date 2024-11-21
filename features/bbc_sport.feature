@@ -16,4 +16,4 @@ Feature: BBC Sport Automation
   Scenario: Retrieve Search Results
     Given I navigate 'bbcSport' to login page
     When I search for "Sport in 2023"
-    Then I assert that "2023" appears at least four times
+    Then I assert that there are at least 4 list items

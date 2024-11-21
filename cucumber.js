@@ -9,4 +9,21 @@ let runsettings = ["features/*.feature", options].join(" ");
 
 module.exports = {
   runner: runsettings,
+  // Add this to ensure the report is generated regardless of test results
+  after: (results) => {
+    const reporter = require("cucumber-html-reporter");
+    const reportOptions = {
+      theme: "bootstrap",
+      jsonFile: "test-report/cucumber_report.json",
+      output: "test-report/cucumber_report.html",
+      screenshotsDirectory: "test-report/assets/",
+      storeScreenshots: true,
+      reportSuiteAsScenarios: true,
+      scenarioTimestamp: true,
+      launchReport: true,
+    };
+
+    // Generate the report
+    reporter.generate(reportOptions);
+  }
 };

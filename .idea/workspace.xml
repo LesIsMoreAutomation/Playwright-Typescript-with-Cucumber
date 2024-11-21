@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8b2da4-41e5-4a8e-9918-182f84997ac4" name="Changes" comment="Update 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/bbc_sport.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/bbc_sport.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporter-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/reporter-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-defs/login-steps.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step-defs/login-steps.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-report/assets/After_2929.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-report/cucumber_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-report/cucumber_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-report/screenshot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +76,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.cucumber.cucumber_node_package_dir": "C:/Users/lesibana.moselakgomo/AquaProjects/Playwright-Typescript-with-Cucumber/node_modules/@cucumber/cucumber",
     "nodejs_package_manager_path": "npm",
+    "npm.install cucumber-html-reporter.executor": "Run",
     "npm.test.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\node_modules\\typescript\\lib",
@@ -105,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber.js.Scenario: Retrieve Search Results" />
         <item itemvalue="npm.test" />
+        <item itemvalue="Cucumber.js.Scenario: Retrieve Search Results" />
       </list>
     </recent_temporary>
   </component>

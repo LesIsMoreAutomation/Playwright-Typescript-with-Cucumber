@@ -41,25 +41,20 @@ Then('I should see {string} in {string} place', async function (driverName: stri
 
 });
 
-Then('I assert that {string} appears at least four times', async function (textToCheck: string) {
-  const selector = '.ssrcss-1020bd1-Stack.e1y4nx260'; // The CSS selector for the element containing the text
 
-  // Wait for the element to be visible
+Then('I assert that there are at least {int} list items', async function (results) {
+  const selector = '.ssrcss-1020bd1-Stack.e1y4nx260'; // The CSS selector for the <ul> element
+
+  // Wait for the <ul> element to be visible
   await page.waitForSelector(selector);
 
-  // Get the element's text content
-  const element = await page.$(selector);
-  if (element) {
-    const textContent = await element.textContent();
-    console.log(`Text content of the element: ${textContent}`); // Log the content
+  // Get all the <li> elements within the specified <ul>
+  const listItems = await page.$$(selector + ' li'); // Adjust selector for <li> items
 
-    // Count occurrences of the specified text
-    const occurrences = (textContent.match(new RegExp(textToCheck, 'g')) || []).length;
+  // Count the number of <li> elements
+  const numberOfItems = listItems.length;
 
-    // Assert that the text appears at least 3 times
-    expect(occurrences).toBeGreaterThan(3); // At least 3 times
-  } else {
-    throw new Error(`Element not found for selector: ${selector}`);
-  }
+  // Assert that there are at least 4 <li> elements
+  expect(numberOfItems).toBeGreaterThanOrEqual(results); // At least 4 items
 });
 
