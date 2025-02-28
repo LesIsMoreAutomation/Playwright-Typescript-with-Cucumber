@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab8b2da4-41e5-4a8e-9918-182f84997ac4" name="Changes" comment="Update 2">
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/bbc_sport.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/bbc_sport.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporter-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/reporter-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-defs/login-steps.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step-defs/login-steps.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/assets/After_2929.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/cucumber_report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/cucumber_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/LesIsMoreAutomation/Playwright-Typescript-with-Cucumber.git&quot;,
-    &quot;accountId&quot;: &quot;19e6d1b6-1a07-4221-8a63-8b9313b15448&quot;
+    &quot;accountId&quot;: &quot;99ac0b58-45ef-41c1-a307-f1ca50a2023c&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -61,33 +57,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber.js.Scenario: Retrieve Search Results.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lesibana.moselakgomo/AquaProjects/Playwright-Typescript-with-Cucumber",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.cucumber.cucumber_node_package_dir": "C:/Users/lesibana.moselakgomo/AquaProjects/Playwright-Typescript-with-Cucumber/node_modules/@cucumber/cucumber",
-    "nodejs_package_manager_path": "npm",
-    "npm.install cucumber-html-reporter.executor": "Run",
-    "npm.test.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber.js.Scenario: Retrieve Search Results.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lesibana.moselakgomo/AquaProjects/Playwright-Typescript-with-Cucumber&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.cucumber.cucumber_node_package_dir&quot;: &quot;C:/Users/lesibana.moselakgomo/AquaProjects/Playwright-Typescript-with-Cucumber/node_modules/@cucumber/cucumber&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.install cucumber-html-reporter.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lesibana.moselakgomo\\AquaProjects\\Playwright-Typescript-with-Cucumber\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lesibana.moselakgomo\AquaProjects\Playwright-Typescript-with-Cucumber\page-objects\bbcSport" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lesibana.Moselakgomo\AquaProjects\Playwright-Typescript-with-Cucumber" />
       <recent name="C:\Users\lesibana.moselakgomo\AquaProjects\Playwright-Typescript-with-Cucumber\features" />
       <recent name="C:\Users\lesibana.moselakgomo\OneDrive - Investec\Desktop\Playwright-Typescript-with-Cucumber\tests\steps" />
       <recent name="C:\Users\lesibana.moselakgomo\OneDrive - Investec\Desktop\Playwright-Typescript-with-Cucumber\tests\features" />
