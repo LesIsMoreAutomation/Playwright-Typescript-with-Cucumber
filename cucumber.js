@@ -27,7 +27,7 @@ module.exports = {
           { label: 'Project', value: 'Cucumber Playwright' },
           { label: 'Environment', value: 'Staging' },
           { label: 'Date', value: new Date().toLocaleString() }, // Current date and time
-          { label: 'Logo', value: '<img src="logo.png" alt="logo" />' } // Example of adding logo
+          { label: 'Logo', value: '<img Playwright-Typescript-with-Cucumber="logo.png" alt="logo" />' } // Example of adding logo
         ]
       }
     };
