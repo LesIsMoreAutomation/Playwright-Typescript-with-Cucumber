@@ -12,7 +12,7 @@ export class SportPage {
     }
 
     public async getNameAtPosition(position: number): Promise<string> {
-        const selector = `div#main-data section:nth-child(2) > div > div > div:nth-child(1) > table > tbody > tr:nth-child(${position}) > td:nth-child(2) > div > div > span.ssrcss-1hf3wfc-FullName.e1dzfgvv4`;
+        const selector = `div#main-data section:nth-child(2) > div > div > div:nth-child(1) > table > tbody > tr:nth-child(${position}) > td:nth-child(2) > div > div`;
 
         // Get the element
         const element = await this.page.$(selector);
