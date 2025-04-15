@@ -1,5 +1,5 @@
 import { Given, When, Then } from "@cucumber/cucumber";
-import { page, basePage } from "../config/global-setup";
+import { page, baseBage } from "../config/global-setup";
 
 Then("I click on the {string}", async function (text) {
     await basePage.InventoryPage.clickByText(text);
