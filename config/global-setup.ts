@@ -7,7 +7,7 @@ import { config } from './runsetting-config';
 let page: Page;
 let browser: Browser;
 let context: BrowserContext;
-let baseBage: BasePage;
+let basePage: BasePage;
 
 setDefaultTimeout(1200000);
 
@@ -24,7 +24,7 @@ Before(async () => {
   }
   context = await browser.newContext();
   page = await context.newPage();
-  baseBage = await new BasePage(page);
+  basePage = await new BasePage(page);
 });
 
 After(async function (this: World, scenario) {
@@ -35,4 +35,4 @@ After(async function (this: World, scenario) {
   await context.close();
   await browser.close();
 });
-export { page, baseBage };
+export { page, basePage };
