@@ -1,17 +1,9 @@
-import { After, AfterStep, Before, setDefaultTimeout, Status, World } from '@cucumber/cucumber';
-import { Page, Browser, chromium, firefox, webkit, BrowserContext } from '@playwright/test';
-import { BasePage } from '../page-objects/login-signin/BasePage';
-import { config } from './runsetting-config';
-
-
-let page: Page;
-let browser: Browser;
-let context: BrowserContext;
-let baseBage: BasePage;
-
+// Set timeout for all steps
 setDefaultTimeout(1200000);
-
-Before(async () => {
+// Initialize browser before each scenario
+Before(async function(this: World) {
+  // Launch browser based on configuration
+  let browser: Browser;
   switch (config.browser) {
     case "firefox":
       browser = await firefox.launch(config.browserOptions);
@@ -22,17 +14,28 @@ Before(async () => {
     default:
       browser = await chromium.launch(config.browserOptions);
   }
-  context = await browser.newContext();
-  page = await context.newPage();
-  baseBage = await new BasePage(page);
-});
+  // Create context and page
+  const context = await browser.newContext();
+  const page = await context.newPage();
 
-After(async function (this: World, scenario) {
+  // Attach browser objects to world context
+  (this as any).browser = browser;
+  (this as any).context = context;
+  (this as any).page = page;
+});
+// Clean up after each scenario
+After(async function(this: PlaywrightWorld, scenario) {
+  // Take screenshot on failure
   if (scenario.result?.status === Status.FAILED) {
-    const screenShot = await page.screenshot();
+    const screenShot = await this.page.screenshot();
     await this.attach(screenShot, "image/png");
   }
-  await context.close();
-  await browser.close();
+
+  // Close browser resources
+  await this.context.close();
+  await this.browser.close();
 });
-export { page, baseBage };
+// Export a helper function to get page from World
+export function getPage(world: World): Page {
+  return (world as any).page;
+}
