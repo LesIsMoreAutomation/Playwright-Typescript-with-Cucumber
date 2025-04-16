@@ -1,5 +1,5 @@
 import { Given, When, Then } from "@cucumber/cucumber";
-import { page, baseBage } from "../config/global-setup";
+import { page, basePage } from "../config/global-setup";
 import {BasePage} from "../page-objects/login-signin/BasePage";
 
 
