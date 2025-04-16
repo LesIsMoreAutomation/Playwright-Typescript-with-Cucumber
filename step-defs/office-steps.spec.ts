@@ -1,6 +1,5 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import { page, basePage } from "../config/global-setup";
-import {BasePage} from "../page-objects/login-signin/BasePage";
 
 
 Given("I enter my username {string}", async function (username) {
