@@ -1,6 +1,6 @@
 import { After, AfterStep, Before, setDefaultTimeout, Status, World } from '@cucumber/cucumber';
 import { Page, Browser, chromium, firefox, webkit, BrowserContext } from '@playwright/test';
-import { BasePage } from '../page-objects/BasePage';
+import { BasePage } from '../page-objects/login-signin/BasePage';
 import { config } from './runsetting-config';
 import * as fs from 'fs';
 import * as path from 'path';
