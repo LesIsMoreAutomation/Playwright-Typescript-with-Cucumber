@@ -35,7 +35,7 @@ Then("I click on the link text {string}", async function (text) {
 
 Then('I should see {string} in {string} place', async function (driverName: string, position: string) {
   const positionNumber = parseInt(position); // Convert position to a number
-  const actualName = await baseBage.SportPage.getNameAtPosition(positionNumber);
+  const actualName = await basePage.SportPage.getNameAtPosition(positionNumber);
   expect(actualName).toBe(driverName); // Assert that the actual name matches the expected name
 
 
