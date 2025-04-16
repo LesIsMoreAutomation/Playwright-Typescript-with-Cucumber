@@ -1,35 +1,35 @@
 import { Given, When, Then } from "@cucumber/cucumber";
-import { page, baseBage } from "../config/global-setup";
+import { page, basePage } from "../config/global-setup";
 import {BasePage} from "../page-objects/login-signin/BasePage";
 import {expect} from "@playwright/test";
 
 Given("I navigate {string} to login page", async function (env) {
-  await baseBage.LoginPage.navigateToLoginPage(env);
+  await basePage.LoginPage.navigateToLoginPage(env);
 });
 
 Given("I enter username {string}", async function (username) {
-  await baseBage.LoginPage.enterUsername(username);
+  await basePage.LoginPage.enterUsername(username);
 });
 
 Given("I enter password {string}", async function (password) {
-  await baseBage.LoginPage.enterPassword(password);
+  await basePage.LoginPage.enterPassword(password);
 });
 
 When("I click login button", async function () {
-  await baseBage.LoginPage.clickOnLogin();
+  await basePage.LoginPage.clickOnLogin();
 });
 
 Then("I will be navigated to home page", async function () {
-  await baseBage.InventoryPage.pageTitle();
+  await basePage.InventoryPage.pageTitle();
 });
 
 
 Then("Error message {string}", async function (text) {
-  await baseBage.LoginPage.lockoutError(text);
+  await basePage.LoginPage.lockoutError(text);
 });
 
 Then("I click on the link text {string}", async function (text) {
-  await baseBage.SportPage.clickByRole(text);
+  await basePage.SportPage.clickByRole(text);
   await page.screenshot({ path: 'test-report/screenshot.png' })
 });
 
