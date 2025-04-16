@@ -1,6 +1,5 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import { page, basePage } from "../config/global-setup";
-import {BasePage} from "../page-objects/login-signin/BasePage";
 import {expect} from "@playwright/test";
 
 Given("I navigate {string} to login page", async function (env) {
