@@ -8,7 +8,7 @@ const options = [
 let runsettings = ["features/*.feature", options].join(" ");
 
 module.exports = {
-  runner: runsettings,
+  default: runsettings,
   // Add this to ensure the report is generated regardless of test results
   after: (results) => {
     const reporter = require("cucumber-html-reporter");
