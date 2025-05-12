@@ -1,35 +1,44 @@
-const { exec } = require('child_process');
-const reporter = require("cucumber-html-reporter");
+const reporter = require('cucumber-html-reporter');
 const fs = require('fs');
 const path = require('path');
 
-const featureFiles = fs.readdirSync('features').filter(file => file.endsWith('.feature'));
+// Base directory where feature reports are stored
+const baseReportDirectory = 'test-report';
 
-featureFiles.forEach(featureFile => {
-  const featurePath = path.join('features', featureFile);
-  const testCommand = `cucumber-js ${featurePath}`; // Run tests for each feature file
+// Iterate over all subdirectories to process reports
+fs.readdirSync(baseReportDirectory).forEach((subDir) => {
+  const reportDirectory = path.join(baseReportDirectory, subDir);
 
-  exec(testCommand, (error, stdout, stderr) => {
-    if (error) {
-      console.error(`Error executing tests for ${featureFile}: ${error.message}`);
-    }
-    if (stderr) {
-      console.error(`Test stderr for ${featureFile}: ${stderr}`);
-    }
-    console.log(`Test stdout for ${featureFile}: ${stdout}`);
+  if (fs.existsSync(reportDirectory) && fs.lstatSync(reportDirectory).isDirectory()) {
+    fs.readdirSync(reportDirectory).forEach((file) => {
+      if (file.endsWith('_cucumber_report.json')) {
+        const jsonReportPath = path.join(reportDirectory, file);
+        const featureName = file.replace('_cucumber_report.json', ''); // Extract feature name
 
-    // Generate the report for the current feature file
-    const options = {
-      theme: "bootstrap",
-      jsonFile: `test-report/${featureFile.replace('.feature', '_report.json')}`, // Unique JSON file for each feature
-      output: `test-report/${featureFile.replace('.feature', '_report.html')}`, // Unique HTML file for each feature
-      screenshotsDirectory: "test-report/assets/",
-      storeScreenshots: true,
-      reportSuiteAsScenarios: true,
-      scenarioTimestamp: true,
-      launchReport: true,
-    };
+        // Generate the HTML report for this JSON file
+        const options = {
+          theme: 'bootstrap',
+          jsonFile: jsonReportPath,
+          output: path.join(reportDirectory, `${featureName}_cucumber_report.html`),
+          storeScreenshots: true,
+          reportSuiteAsScenarios: true,
+          scenarioTimestamp: true,
+          launchReport: true,
+          customData: {
+            title: 'My Custom Report',
+            data: [
+              { label: 'Feature', value: featureName },
+              { label: 'Project', value: 'Cucumber Playwright' },
+              { label: 'Environment', value: 'Dev' },
+              { label: 'Date', value: new Date().toLocaleString() },
+            ],
+          },
+        };
 
-    reporter.generate(options);
-  });
+        console.log(`Generating HTML report for ${featureName} in ${subDir}...`);
+        reporter.generate(options);
+        console.log(`HTML report for ${featureName} in ${subDir} generated successfully!`);
+      }
+    });
+  }
 });
