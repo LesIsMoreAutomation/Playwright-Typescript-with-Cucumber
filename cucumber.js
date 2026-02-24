@@ -27,7 +27,7 @@ const featureFileName = featureArg ? featureArg.split('/').pop().replace('.featu
 
 const options = [
   "--require-module ts-node/register",
-  "--require src/step-defs/*.spec.ts",
+  "--require src/**/*.ts",
   `-f json:test-report/${featureFileName}/${featureFileName}_cucumber_report.json`,
   `-f junit:test-report/${featureFileName}/${featureFileName}_cucumber_report.xml`,
   "--retry", "1"
