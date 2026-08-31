@@ -23,6 +23,7 @@ if (featureArg) {
 }
 
 // Extract the feature file name for reporting
+
 const featureFileName = featureArg ? featureArg.split('/').pop().replace('.feature', '') : 'all-features';
 
 const options = [
